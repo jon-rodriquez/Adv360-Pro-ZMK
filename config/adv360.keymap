@@ -10,18 +10,13 @@
       #include "version.dtsi"
       #ifndef VERSION_MACRO
 
-        text_editor: hyper {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(LA(LC(LG(J))))>;
-            label = "HYPER";
-        };
-
         my_email: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp J &kp R &kp O &kp D &kp R &kp I &kp Q &kp U &kp E &kp Z &kp N0 &kp N4 &kp N0 &kp N7 &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
-            label = "NEW_MACRO";
+            label = "email_address";
+            wait-ms = <1>;
+            tap-ms = <1>;
         };
 
         #endif
