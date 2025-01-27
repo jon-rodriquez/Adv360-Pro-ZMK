@@ -10,13 +10,13 @@
       #include "version.dtsi"
       #ifndef VERSION_MACRO
 
-        my_email: new_macro {
+        my_email: my_email {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp J &kp R &kp O &kp D &kp R &kp I &kp Q &kp U &kp E &kp Z &kp N0 &kp N4 &kp N0 &kp N7 &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
-            label = "email_address";
-            wait-ms = <1>;
-            tap-ms = <1>;
+            label = "my_email";
+            wait-ms = <10>;
+            tap-ms = <10>;
         };
 
         #endif
