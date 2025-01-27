@@ -47,11 +47,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL       &kp N1     &kp N2          &kp N3              &kp N4            &kp N5          &tog 1                                                           &mo 3              &kp N6           &kp N7             &kp N8               &kp N9           &kp N0    &kp MINUS
-&kp TAB         &kp Q      &kp W           &kp E               &kp R             &kp T           &none                                                            &none              &kp Y            &kp U              &kp I                &kp O            &kp P     &kp BSLH
-&kp ESC         &kp A      &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &hm LEFT_GUI G  &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL          &none              &hm RIGHT_GUI H  &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &kp SEMI  &kp SQT
-&kp UNDERSCORE  &kp Z      &kp X           &kp C               &kp V             &kp B                                &kp HOME      &kp PG_UP                                        &kp N            &kp M              &kp COMMA            &kp DOT          &kp FSLH  &kp EQUAL
-&mo 2           &kp GRAVE  &kp CAPS        &kp LEFT            &kp RIGHT                         &kp BSPC  &kp DEL    &kp END       &kp LC(S)  &hold_tap 4 ENTER  &hold_tap 4 SPACE                   &kp UP             &kp DOWN             &kp LBKT         &kp RBKT  &mo 2
+&kp EQUAL       &kp N1     &kp N2          &kp N3              &kp N4            &kp N5          &tog 1                                                                              &mo 3              &kp N6           &kp N7             &kp N8               &kp N9           &kp N0    &kp MINUS
+&kp TAB         &kp Q      &kp W           &kp E               &kp R             &kp T           &none                                                                               &none              &kp Y            &kp U              &kp I                &kp O            &kp P     &kp BSLH
+&kp ESC         &kp A      &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &hm LEFT_GUI G  &none                  &kp LCTRL        &kp LALT      &kp LGUI   &kp RCTRL          &none              &hm RIGHT_GUI H  &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &kp SEMI  &kp SQT
+&kp UNDERSCORE  &kp Z      &kp X           &kp C               &kp V             &kp B                                                   &kp HOME      &kp PG_UP                                        &kp N            &kp M              &kp COMMA            &kp DOT          &kp FSLH  &kp EQUAL
+&mo 2           &kp GRAVE  &kp CAPS        &kp LEFT            &kp RIGHT                         &hold_tap 2 BACKSPACE  &hold_tap 2 DEL  &kp END       &kp LC(S)  &hold_tap 4 ENTER  &hold_tap 4 SPACE                   &kp UP             &kp DOWN             &kp LBKT         &kp RBKT  &mo 2
             >;
         };
 
@@ -67,11 +67,11 @@
 
         fn {
             bindings = <
-&kp F1     &kp F2     &kp F3     &kp F4     &kp F5             &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans     &trans     &trans     &trans     &trans             &trans  &none                                       &none   &trans  &trans  &trans  &trans   &trans   &trans
-&kp POUND  &kp CARET  &kp EQUAL  &kp UNDER  &kp C_VOLUME_UP    &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &trans  &trans  &trans   &trans   &trans
-&trans     &trans     &trans     &trans     &kp C_VOLUME_DOWN  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans   &trans   &trans
-&trans     &trans     &trans     &trans     &trans                     &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans   &trans   &trans
+&kp F1     &kp F2          &kp F3  &kp F4            &kp F5             &kp F6      &tog 1                                      &mo 3   &kp F7    &kp F8    &kp F9        &kp F10    &kp F11  &kp F12
+&trans     &trans          &trans  &trans            &trans             &trans      &none                                       &none   &trans    &trans    &trans        &trans     &trans   &trans
+&kp POUND  &kp C_PREVIOUS  &none   &kp K_PLAY_PAUSE  &kp C_VOLUME_UP    &kp C_NEXT  &none   &trans  &trans      &trans  &trans  &none   &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans   &trans
+&trans     &trans          &trans  &kp C_PAUSE       &kp C_VOLUME_DOWN  &trans                      &trans      &trans                  &trans    &trans    &trans        &trans     &trans   &trans
+&trans     &trans          &trans  &trans            &kp K_MUTE                     &trans  &trans  &trans      &trans  &trans  &trans            &trans    &trans        &trans     &trans   &trans
             >;
         };
 
@@ -80,18 +80,18 @@
 &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                                                  &trans                  &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &none         &none         &bootloader                                            &bootloader             &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &none         &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &none  &none       &none       &none  &none  &none
-&none  &none         &none         &none         &macro_ver    &none                             &none      &none                                           &none  &none       &none       &none  &none  &none
+&none  &none         &none         &none         &none         &none                             &none      &none                                           &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                &bl BL_INC  &bl BL_DEC  &none  &none  &none
             >;
         };
 
-        Symbols {
+        Symbol_Default {
             bindings = <
-&kp GRAVE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp PERIOD    &trans                                                  &trans  &trans          &trans          &trans        &trans           &trans     &trans
-&kp EXCL   &kp COMMA         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMI           &kp QUESTION  &trans                                                  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans     &trans
-&kp POUND  &kp CARET         &kp EQUAL             &kp UNDER              &kp DOLLAR         &kp ASTRK     &trans       &kp BACKSLASH  &trans      &trans  &trans  &trans  &trans          &kp BACKSPACE   &kp TAB       &kp SPACE        &kp ENTER  &trans
-&kp TILDE  &kp LESS_THAN     &kp PIPE              &kp MINUS              &kp GREATER_THAN   &kp SLASH                                 &trans      &trans                  &trans          &kp DEL         &trans        &trans           &trans     &trans
-&trans     &kp AMPS          &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES      &kp PLUS                         &kp PERCENT  &kp COLON      &kp AT      &trans  &trans  &trans                  &trans          &trans        &trans           &trans     &trans
+&trans     &none          &trans            &trans             &trans          &trans           &trans                                      &trans  &trans         &trans     &trans         &trans                &trans                 &trans
+&kp GRAVE  &kp EXCL       &kp AT            &kp POUND          &kp DOLLAR      &kp PERCENT      &trans                                      &trans  &kp CARET      &kp AMPS   &kp ASTRK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
+&kp TILDE  &trans         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans  &trans  &trans      &trans  &trans  &trans  &kp MINUS      &kp PLUS   &kp EQUAL      &trans                &kp COLON              &kp DOUBLE_QUOTES
+&trans     &kp BACKSLASH  &trans            &trans             &kp TAB         &kp DELETE                       &trans      &trans                  &kp BACKSPACE  &kp SPACE  &kp LESS_THAN  &kp GREATER_THAN      &kp QUESTION           &kp EQUAL
+&trans     &trans         &trans            &trans             &trans                           &trans  &trans  &trans      &trans  &trans  &trans                 &trans     &trans         &trans                &trans                 &trans
             >;
         };
     };
