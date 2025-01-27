@@ -1,5 +1,39 @@
 # Kinesis Advantage 360 Pro ZMK Config
 
+## Current keymap 
+
+### Layer 0
+
+<img width="1913" alt="Screenshot 2025-01-27 at 11 21 48 AM" src="https://github.com/user-attachments/assets/ed2f5cdd-32e5-4339-b17f-ffc811d5becc" />
+
+___
+
+### Layer 1
+
+<img width="1914" alt="Screenshot 2025-01-27 at 11 21 57 AM" src="https://github.com/user-attachments/assets/14639147-c32a-4ce6-8b3f-746988625081" />
+
+___ 
+
+### Layer 2
+
+<img width="1917" alt="Screenshot 2025-01-27 at 11 22 04 AM" src="https://github.com/user-attachments/assets/6d582dca-28a9-43ea-af66-9db6933662be" />
+
+___
+
+### Layer 3
+
+<img width="1918" alt="Screenshot 2025-01-27 at 11 22 12 AM" src="https://github.com/user-attachments/assets/2e0c4587-34ee-45ab-bf64-c31fb1425295" />
+
+___
+
+### Layer 4
+
+
+<img width="1920" alt="Screenshot 2025-01-27 at 11 22 19 AM" src="https://github.com/user-attachments/assets/2ee706a2-2744-45ee-8b11-58ff4eaa2f1b" />
+
+___
+
+
 ## Modifying the keymap
 
 [The ZMK documentation](https://zmk.dev/docs) covers both basic and advanced functionality and has a table of OS compatibility for keycodes. Please note that the RGB Underglow, Backlight and Power Management sections are not relevant to the Advantage 360 Pro's custom ZMK fork. For more information see [this note](#note)
