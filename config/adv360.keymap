@@ -98,7 +98,7 @@
             bindings = <
 &trans     &none          &trans            &trans             &trans          &trans           &trans                                      &trans  &trans         &trans     &trans         &trans                &trans                 &trans
 &kp GRAVE  &kp EXCL       &kp AT            &kp POUND          &kp DOLLAR      &kp PERCENT      &trans                                      &trans  &kp CARET      &kp AMPS   &kp ASTRK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
-&kp TILDE  &trans         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &none   &trans  &trans      &trans  &trans  &trans  &kp MINUS      &kp PLUS   &kp EQUAL      &trans                &kp COLON              &kp DOUBLE_QUOTES
+&kp TILDE  &trans         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &none   &trans  &trans      &trans  &trans  &trans  &kp MINUS      &kp PLUS   &kp EQUAL      &arrow_func           &kp COLON              &kp DOUBLE_QUOTES
 &trans     &kp BACKSLASH  &trans            &trans             &kp TAB         &kp DELETE                       &trans      &trans                  &kp BACKSPACE  &kp SPACE  &kp LESS_THAN  &kp GREATER_THAN      &kp QUESTION           &kp EQUAL
 &trans     &trans         &trans            &trans             &trans                           &trans  &trans  &trans      &trans  &trans  &trans                 &trans     &trans         &trans                &trans                 &trans
             >;
