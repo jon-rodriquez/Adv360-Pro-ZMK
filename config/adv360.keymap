@@ -57,8 +57,8 @@
         default_layer {
             bindings = <
 &kp EQUAL       &kp N1     &kp N2          &kp N3              &kp N4            &kp N5          &tog 1                                                                                   &mo 3              &kp N6           &kp N7             &kp N8               &kp N9           &kp N0    &kp MINUS
-&kp TAB         &kp Q      &kp W           &kp E               &kp R             &kp T           &kp LG(LC(LEFT_ARROW))                                                                   &kp LC(LG(RIGHT))  &kp Y            &kp U              &kp I                &kp O            &kp P     &kp BSLH
-&kp ESC         &kp A      &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &hm LEFT_GUI G  &none                   &kp LCTRL        &kp LALT      &kp LGUI   &kp RCTRL              &my_email          &hm RIGHT_GUI H  &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &kp SEMI  &kp SQT
+&kp TAB         &kp Q      &kp W           &kp E               &kp R             &kp T           &none                                                                                    &my_email          &kp Y            &kp U              &kp I                &kp O            &kp P     &kp BSLH
+&kp ESC         &kp A      &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &hm LEFT_GUI G  &kp LC(LG(LEFT_ARROW))  &kp LCTRL        &kp LALT      &kp LGUI   &kp RCTRL              &kp LC(LG(RIGHT))  &hm RIGHT_GUI H  &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &kp SEMI  &kp SQT
 &kp UNDERSCORE  &kp Z      &kp X           &kp C               &kp V             &kp B                                                    &kp HOME      &none                                                &kp N            &kp M              &kp COMMA            &kp DOT          &kp FSLH  &kp EQUAL
 &mo 2           &kp GRAVE  &kp CAPS        &kp LEFT_BRACKET    &kp LEFT_BRACE                    &hold_tap 2 ENTER       &hold_tap 2 DEL  &kp END       &kp LC(S)  &hold_tap 4 BACKSPACE  &hold_tap 4 SPACE                   &kp RIGHT_BRACE    &kp RIGHT_BRACKET    &none            &none     &mo 2
             >;
