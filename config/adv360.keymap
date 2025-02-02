@@ -56,11 +56,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL       &kp N1     &kp N2          &kp N3              &kp N4            &kp N5          &tog 1                                                                                   &mo 3              &kp N6           &kp N7             &kp N8               &kp N9           &kp N0    &kp MINUS
-&kp TAB         &kp Q      &kp W           &kp E               &kp R             &kp T           &none                                                                                    &my_email          &kp Y            &kp U              &kp I                &kp O            &kp P     &kp BSLH
-&kp ESC         &kp A      &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &hm LEFT_GUI G  &kp LC(LG(LEFT_ARROW))  &kp LCTRL        &kp LALT      &kp LGUI   &kp RCTRL              &kp LC(LG(RIGHT))  &hm RIGHT_GUI H  &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &kp SEMI  &kp SQT
-&kp UNDERSCORE  &kp Z      &kp X           &kp C               &kp V             &kp B                                                    &kp HOME      &none                                                &kp N            &kp M              &kp COMMA            &kp DOT          &kp FSLH  &kp EQUAL
-&mo 2           &kp GRAVE  &kp CAPS        &kp LEFT_BRACKET    &kp LEFT_BRACE                    &hold_tap 2 ENTER       &hold_tap 2 DEL  &kp END       &kp LC(S)  &hold_tap 4 BACKSPACE  &hold_tap 4 SPACE                   &kp RIGHT_BRACE    &kp RIGHT_BRACKET    &none            &none     &mo 2
+&kp EQUAL          &kp N1     &kp N2          &kp N3              &kp N4            &kp N5          &tog 1                                                                                   &mo 3              &kp N6           &kp N7             &kp N8               &kp N9           &kp N0    &kp MINUS
+&kp TAB            &kp Q      &kp W           &kp E               &kp R             &kp T           &none                                                                                    &none              &kp Y            &kp U              &kp I                &kp O            &kp P     &kp BSLH
+&kp ESC            &kp A      &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &hm LEFT_GUI G  &kp LC(LG(LEFT_ARROW))  &kp LCTRL        &kp LALT      &kp LGUI   &kp RCTRL              &kp LC(LG(RIGHT))  &hm RIGHT_GUI H  &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &kp SEMI  &kp SQT
+&kp UNDERSCORE     &kp Z      &kp X           &kp C               &kp V             &kp B                                                    &kp HOME      &none                                                &kp N            &kp M              &kp COMMA            &kp DOT          &kp FSLH  &kp EQUAL
+&kp LC(BACKSPACE)  &kp GRAVE  &kp CAPS        &kp LEFT_BRACKET    &kp LEFT_BRACE                    &hold_tap 2 ENTER       &hold_tap 2 DEL  &kp END       &kp LC(S)  &hold_tap 4 BACKSPACE  &hold_tap 4 SPACE                   &kp RIGHT_BRACE    &kp RIGHT_BRACKET    &none            &none     &mo 2
             >;
         };
 
@@ -76,11 +76,11 @@
 
         fn {
             bindings = <
-&kp F1     &kp F2          &kp F3        &kp F4            &kp F5             &kp F6      &tog 1                                      &mo 3   &kp F7        &kp F8    &kp F9        &kp F10       &kp F11       &kp F12
-&trans     &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4       &kp N5      &none                                       &none   &kp NUMBER_6  &kp N7    &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
-&kp POUND  &kp C_PREVIOUS  &none         &kp K_PLAY_PAUSE  &kp C_VOLUME_UP    &kp C_NEXT  &none   &trans  &trans      &trans  &trans  &none   &kp LEFT      &kp DOWN  &kp UP_ARROW  &kp RIGHT     &trans        &trans
-&trans     &trans          &trans        &kp C_PAUSE       &kp C_VOLUME_DOWN  &trans                      &trans      &trans                  &trans        &trans    &trans        &trans        &trans        &trans
-&trans     &trans          &trans        &trans            &kp K_MUTE                     &trans  &trans  &trans      &trans  &trans  &trans                &trans    &trans        &trans        &trans        &trans
+&kp F1     &kp F2          &kp F3        &kp F4            &kp F5             &kp F6      &tog 1                                      &mo 3      &kp F7        &kp F8    &kp F9        &kp F10       &kp F11       &kp F12
+&trans     &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4       &kp N5      &none                                       &none      &kp NUMBER_6  &kp N7    &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
+&kp POUND  &kp C_PREVIOUS  &none         &kp K_PLAY_PAUSE  &kp C_VOLUME_UP    &kp C_NEXT  &none   &trans  &trans      &trans  &trans  &my_email  &kp LEFT      &kp DOWN  &kp UP_ARROW  &kp RIGHT     &trans        &trans
+&trans     &trans          &trans        &kp C_PAUSE       &kp C_VOLUME_DOWN  &trans                      &trans      &trans                     &trans        &trans    &trans        &trans        &trans        &trans
+&trans     &trans          &trans        &trans            &kp K_MUTE                     &trans  &trans  &trans      &trans  &trans  &trans                   &trans    &trans        &trans        &trans        &trans
             >;
         };
 
